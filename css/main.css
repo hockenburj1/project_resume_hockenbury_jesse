@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+#container {
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    -webkit-box-shadow: 10px 7px 46px -9px rgba(0,0,0,0.49);
+    -moz-box-shadow: 10px 7px 46px -9px rgba(0,0,0,0.49);
+    box-shadow: 10px 7px 46px -9px rgba( 0, 0, 0, 0.49 );
+}
