@@ -7,23 +7,72 @@ body {
 
 * {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
-#container {
+header,
+section,
+footer {
     background-color: white;
     max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    -webkit-box-shadow: -1px 14px 74px -13px rgba(0, 0, 0, 0.49);
-    -moz-box-shadow: -1px 14px 74px -13px rgba(0, 0, 0, 0.49);
-    box-shadow: -1px 14px 74px -13px rgba(0, 0, 0, 0.49);
+    margin: 17px auto;
+    padding: 20px 30px;
+    -webkit-box-shadow: 0 7px 63px -12px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 0 7px 63px -12px rgba(0, 0, 0, 0.49);
+    box-shadow: 0 7px 63px -12px rgba(0, 0, 0, 0.49);
+}
+
+h2 {
+    color: #f4913f;
 }
 
 /* Header */
+
+header {
+    padding: 10px;
+}
 
 .hidden-header {
     position: absolute;
     width: 1px;
     height: 1px;
     overflow: hidden;
+}
+
+/* Content */
+
+section {
+    overflow: hidden;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    float: left;
+    display: block;
+}
+
+#profile-overview {
+    float: left;
+    padding-left: 40px;
+    width: calc(100% - 200px);
+    margin-top: 5px;
+}
+
+#city {
+    color: gray;
+    padding-top: 3px;
+}
+
+#summary {
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+#social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 32px;
 }
