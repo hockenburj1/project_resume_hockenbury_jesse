@@ -27,6 +27,10 @@ h2 {
     color: #f4913f;
 }
 
+h3 {
+    color: #ee683d;
+}
+
 /* Header */
 
 header {
@@ -59,13 +63,13 @@ section {
     margin-top: 5px;
 }
 
-#city {
+.city {
     color: gray;
     padding-top: 3px;
+    padding-bottom: 5px;
 }
 
 #summary {
-    margin-top: 5px;
     line-height: 1.4;
 }
 
@@ -75,4 +79,12 @@ section {
 
 .social-icon {
     width: 32px;
+}
+
+#education article {
+    margin-top: 15px;
+}
+
+#education .description {
+    line-height: 1.4;
 }
