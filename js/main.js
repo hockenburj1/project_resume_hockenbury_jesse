@@ -10,4 +10,6 @@ $( document ).ready( function() {
         lng: -84.4644444,
         title: 'Jesse Hockenbury'
     } );
+
+    SyntaxHighlighter.all();
 } );

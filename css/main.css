@@ -114,3 +114,16 @@ li {
 #map {
     height: 350px;
 }
+
+.syntaxhighlighter .toolbar {
+    display: none;
+}
+
+td.code {
+    padding-left: 15px;
+}
+
+.syntaxhighlighter .gutter .line {
+    padding-right: 10px;
+    border-right: 3px solid #6ce26c;
+}
