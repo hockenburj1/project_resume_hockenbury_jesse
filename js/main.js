@@ -12,4 +12,12 @@ $( document ).ready( function() {
     } );
 
     SyntaxHighlighter.all();
+
+    $( '#profile-pic' )
+        .mouseover( function() {
+            $( '#profile-pic' ).fadeTo( 'slow', 0.5 );
+        } )
+        .mouseout( function() {
+            $( '#profile-pic' ).fadeTo( 'slow', 1 );
+        } );
 } );
