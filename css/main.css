@@ -110,3 +110,7 @@ li {
 #interests li:hover {
     color: #ee683d;
 }
+
+#map {
+    height: 350px;
+}
