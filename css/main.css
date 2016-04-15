@@ -81,10 +81,32 @@ section {
     width: 32px;
 }
 
-#education article {
+article {
     margin-top: 15px;
 }
 
 #education .description {
     line-height: 1.4;
+}
+
+li {
+    list-style-position: inside;
+    padding-bottom: 5px;
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+#skills li,
+#interests li {
+    list-style-type: none;
+    text-indent: 0;
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: #ededed;
+    margin-bottom: 3px;
+}
+
+#skills li:hover,
+#interests li:hover {
+    color: #ee683d;
 }
