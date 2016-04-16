@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f6f6f6;
+    background: linear-gradient(to bottom, rgba(21, 21, 21, 1) 0%, #939393 100%);
     box-sizing: border-box;
 }
 
@@ -20,7 +20,7 @@ footer {
     padding: 20px 30px;
     -webkit-box-shadow: 0 7px 63px -12px rgba(0, 0, 0, 0.49);
     -moz-box-shadow: 0 7px 63px -12px rgba(0, 0, 0, 0.49);
-    box-shadow: 0 7px 63px -12px rgba(0, 0, 0, 0.49);
+    box-shadow: inset 0 7px 63px -12px rgba(212, 212, 212, 0.49);
 }
 
 h2 {
