@@ -35,6 +35,7 @@ h3 {
 
 header {
     padding: 10px;
+    overflow: hidden;
 }
 
 .hidden-header {
@@ -42,6 +43,21 @@ header {
     width: 1px;
     height: 1px;
     overflow: hidden;
+}
+
+#contact {
+    color: #f4913f;
+    font-weight: bold;
+    margin-top: 8px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+#contact p {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
 }
 
 /* Content */
@@ -52,14 +68,13 @@ section {
 
 #profile-pic {
     border-radius: 50%;
-    float: left;
     display: block;
+    width: 200px;
+    margin: 0 auto 10px auto;
 }
 
 #profile-overview {
     float: left;
-    padding-left: 40px;
-    width: calc(100% - 200px);
     margin-top: 5px;
 }
 
@@ -126,4 +141,28 @@ td.code {
 .syntaxhighlighter .gutter .line {
     padding-right: 10px;
     border-right: 3px solid #6ce26c;
+}
+
+@media (min-width: 770px) {
+    #contact {
+        float: right;
+        text-align: right;
+    }
+
+    #contact p {
+        display: block;
+        float: right;
+        width: 100%;
+        padding-bottom: 6px;
+    }
+
+    #profile-pic {
+        float: left;
+        text-align: left;
+    }
+
+    #profile-overview {
+        width: calc(100% - 200px);
+        padding-left: 40px;
+    }
 }
